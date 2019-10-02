@@ -1,0 +1,68 @@
+body{
+	font-family: Helvetica, Verdana, sans-serif;
+	background-color: #1D2475;
+	color:#939396;
+	background-image: url("../lab02/cse326bg.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+h1{
+	font-size: 40pt;
+	color:#F7931E;
+	text-shadow: 3px 3px green;
+}
+
+h2{
+	color:#F7931E;
+}
+
+strong{
+	color: #FFF86B;
+}
+
+a{
+	color: #FF4F4F;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul{
+	list-style-type: square;
+}
+
+ol li{
+	text-align: left;
+}
+
+
+ol li dl dt {
+	font-size: 70%;
+	font-weight: bold;
+	color : #FFF86B;
+}
+
+p::first-letter {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+blockquote {
+	color: #D1DFEB;
+	text-align: left;
+}
+
+
+table, th, td{
+	border-style: dotted;
+}
+table { border-collapse: collapse; }
+
+p img{
+	outline-style: 	ridge;
+	outline-width: medium;
+	outline-color: #F7931E;
+}
+
