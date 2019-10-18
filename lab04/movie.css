@@ -1,0 +1,117 @@
+body{
+	background-image: url("background.png");
+	font-size: 8pt;
+	font-family: Verdana,Tahoma,sans-serif;
+	margin:0;
+	padding:0;
+}
+
+#banner{
+	text-align: center;
+	background-image: url("bannerbg.png");
+	background-repeat: repeat-x;
+	height: 50px;
+}
+
+#title h1{
+	text-align: center;
+	font-size: 24pt;
+	font-style: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+	text-shadow: 3px 3px #999999;
+}
+
+.wrapper{
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	border:4px solid gray;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+
+#article-title img{
+	vertical-align: bottom;
+	height:83px;
+}
+
+#article-title{
+	background-image: url("rbg.png");
+	background-repeat: repeat-x;
+	width: 550px;
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+}
+
+.aside{
+	float:right;
+}
+
+.col1{
+	float:left;
+	width:30%;
+	margin:2%;
+}
+
+.col2{
+	float:right;
+	width:30%;
+	margin: 2%;
+}
+
+
+.article div div p:nth-child(1){
+	font-size: 8pt;
+	background-color: #E8DC9B;
+	border:2px solid gray;
+	border-radius: 10px;
+	padding:8px;
+	overflow: hidden;
+	font-weight: bold;
+}
+
+.col1 div, .col2 div{
+	margin-bottom: 20pt;
+}
+
+
+.col1 div p span, .col2 div p span{
+	font-style: italic;
+}
+
+.article div div p img{
+	float:left;
+	margin-right: 5px;
+}
+
+.aside{
+	width: 250px;
+	background-color:#A2B964;
+	font-family: Arial, sans-serif;
+	font-size: 8pt;	
+}
+
+.aside dl dt{
+	font-weight: bold;
+	margin-top:10pt;
+	margin-left: 10pt;
+
+}
+
+.aside dl dt dd ul{
+	list-style-type: none;
+}
+
+#footer{
+	clear: both;
+	text-align: center;
+	background-color: #A2B964;
+	margin:0;
+}
+
+#footer p{
+	padding:5px;
+	margin: 0;
+}
