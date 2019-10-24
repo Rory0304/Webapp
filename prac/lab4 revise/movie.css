@@ -1,0 +1,132 @@
+body{
+	background-image: url("background.png");
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 8pt;
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	background-image: url("bannerbg.png");
+	background-repeat: repeat-x;
+	text-align: center;
+	height: 50px;
+}
+
+#title h1{
+	text-align: center;
+	font-size: 24pt;
+	font-weight:bold;
+	font-family: Tahoma, Verdana, sans-serif;
+	text-shadow: 3px 3px #999999;
+}
+
+.article{
+	width: 800px;
+	margin: 0 auto;
+	border: 4px solid gray;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.rottenbig{
+	background-image: url("rbg.png");
+	background-repeat: repeat-x;
+	height: 83px;
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+}
+
+.rottenbig img{
+	vertical-align: bottom;
+	float: left;
+}
+
+.review{
+	width: 550px;
+	float: left;
+	padding: 0;
+}
+.review .left{
+	width: 47%;
+	margin-left: 2%;
+	float: left;
+}
+
+.review .right{
+	width: 47%;
+	margin-left: 2%;
+	margin-right: 2%;
+	float: right;
+}
+
+
+.quote{
+	padding: 8px;
+	font-size: 8pt;
+	font-weight: bold;
+	background-color: #E8DC9B;
+	border: 2px solid gray;
+	border-radius: 10px;
+	overflow: hidden;
+
+}
+
+.quote img{
+	margin-right : 5px;
+	float: left;
+}
+
+.review div{
+	margin-bottom: 20pt;
+}
+
+.reviewer span{
+	font-style: italic;
+}
+
+.reviewer img{
+	margin-right: 5px;
+	float: left;
+}
+
+.aside{
+	width: 250px;
+	background-color: #A2B964;
+	float: right;
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+}
+
+.aside dl{
+	margin: 10pt;
+}
+
+.aside dl dt{
+	font-weight: bold;
+	margin-top: 10pt;
+
+}
+
+.aside dl dd ul {
+	list-style-type: none;
+	padding: 0;
+}
+#page{
+	clear: both;
+	background-color: #A2B964;
+	text-align: center;
+
+}
+#page p{
+	padding: 5px;
+	margin: 0;
+}
+
+#validator {
+	opacity: 0.5;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
