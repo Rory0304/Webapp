@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Grade Store</title>
-		<link href="https://selab.hanyang.ac.kr/courses/cse326/2019/labs/labResources/gradestore.css" type="text/css" rel="stylesheet" />
-	</head>
-	
-	<body>
-		<h1>Grade Store</h1>
+<head>
+	<title>Grade Store</title>
+	<link href="https://selab.hanyang.ac.kr/courses/cse326/2019/labs/labResources/gradestore.css" type="text/css" rel="stylesheet" />
+</head>
 
-		<p>
-			The rough economy, along with recent changes in Hanyang University, allow us to offer grades for money.  
-			That's right! All you need to get a desired grade in various courses is cold, hard, cash.
-		</p>
-		
-		<hr />
-		
-		<h2>Buy your Grade today!</h2>
-		
-		<!-- create an HTML Form -->
-		
-			Name:
-			ID: 
-			
-			Course: 
-				CSE326
-				CSE107
-				CSE603
-				CIN870
-			
-			Grade: 
-				A+
-				A
-				B+
-				B
-			
-			Credit Card: 
-				Visa
-				MasterCard
-	
-			<div id="submitbutton">
-				<!-- create submit button here -->
-			</div>
+<body>
+	<h1>Grade Store</h1>
 
-	</body>
+	<p>
+		The rough economy, along with recent changes in Hanyang University, allow us to offer grades for money.  
+		That's right! All you need to get a desired grade in various courses is cold, hard, cash.
+	</p>
+
+	<hr />
+
+	<h2>Buy your Grade today!</h2>
+
+	<!-- create an HTML Form -->
+	<form action="cheater.php" method="POST">
+		Name: <input type="text" name="name"/>
+		ID: <input type="text" name="id"/>
+	</br>
+	Course: 
+	<input type="checkbox" name="CSE326"/>CSE326
+	<input type="checkbox" name="CSE107"/>CSE107
+	<input type="checkbox" name="CSE603"/>CSE603
+	<input type="checkbox" name="CIN870"/>CIN870
+	</br>
+	Grade: 
+	<select name="grades">
+		<option>A</option>
+		<option>A</option>
+		<option>B+</option>
+		<option>B</option>
+	</select>
+	</br>
+	Credit Card: <input type="text"/>
+	<input type="radio" name="radio" value="visa">Visa
+	<input type="radio" name="radio" value="MasterCard">MasterCard
+
+	<div id="submitbutton">
+		<input type="submit" value="I am a giant cheater!"/>
+	</div>
+	</form>
+
+</body>
 </html>

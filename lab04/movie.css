@@ -23,8 +23,7 @@ body{
 
 .wrapper{
 	width: 800px;
-	margin-right: auto;
-	margin-left: auto;
+	margin: 0 auto;
 	border:4px solid gray;
 	border-radius: 20px;
 	overflow: hidden;
@@ -33,32 +32,39 @@ body{
 
 #article-title img{
 	vertical-align: bottom;
-	height:83px;
+	float: left;
 }
 
 #article-title{
 	background-image: url("rbg.png");
 	background-repeat: repeat-x;
-	width: 550px;
 	font-size: 48pt;
 	color: red;
 	font-weight: bold;
+	height: 83px;
 }
 
 .aside{
 	float:right;
 }
 
+.article{
+	width: 550px;
+	float: left;
+	padding: 0;
+}
+
 .col1{
 	float:left;
-	width:30%;
-	margin:2%;
+	width:47%;
+	margin-left:2%;
 }
 
 .col2{
 	float:right;
-	width:30%;
-	margin: 2%;
+	width:47%;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 
@@ -100,8 +106,9 @@ body{
 
 }
 
-.aside dl dt dd ul{
+.aside dl dd ul{
 	list-style-type: none;
+	padding: 0;
 }
 
 #footer{
