@@ -1,0 +1,13 @@
+james arthur;s;s;visa
+james arthur;s;s;visa
+james arthur;a;a;visa
+s s;;s;visa
+s s;s;s;visa
+james arthur;ss;1234123412341234;visa
+james arthur;ss;1234123412341234;visa
+james arthur;ss;1234123412341234;MasterCard
+james arthur;ss;1234123412341234;visa
+james arthur;ss;1234123412341234;visa
+james arthur;s;4567456745674567;visa
+james arthur;a;4567456745674567;visa
+james arthur;ss;5678567856785678;MasterCard
