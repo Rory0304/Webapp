@@ -3,6 +3,9 @@ $BOOKS_FILE = "books.txt";
 
 function filter_chars($str) {
 	return preg_replace("/[^A-Za-z0-9_]*/", "", $str);
+	//* greedy, ^ 시작이
+	//preg_replace("[패턴]" , "[바꿀 패턴]" , "[바꿀 문장]"); 
+	//해당 패턴 삭제
 }
 
 if (!isset($_SERVER["REQUEST_METHOD"]) || $_SERVER["REQUEST_METHOD"] != "GET") {
@@ -14,6 +17,7 @@ $category = "";
 $delay = 0;
 
 if (isset($_REQUEST["category"])) {
+	//카테고리 변수가 존재할 경우
 	$category = filter_chars($_REQUEST["category"]);
 }
 if (isset($_REQUEST["delay"])) {
